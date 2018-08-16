@@ -112,5 +112,5 @@ const datosUsuario = (user) =>{
 };
 
 const nextView = () => {
-  location.href = 'views/firstView';
+  location.href = 'html/firstView.html';
 }
