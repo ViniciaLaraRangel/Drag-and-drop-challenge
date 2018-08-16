@@ -8,7 +8,6 @@ document.addEventListener('drag', (e) => {
 }, false)
 document.addEventListener('dragstart', () => {
 dragItem = event.target;
-event.target.style.opacity = .5;
 }, false)
 document.addEventListener('dragend', () => {
 }, false)
