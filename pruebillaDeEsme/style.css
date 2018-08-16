@@ -1,0 +1,32 @@
+
+ul li {
+    list-style-type: none;
+  }
+  img {
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .drop-zone {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: #66b8e7;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .drop-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
