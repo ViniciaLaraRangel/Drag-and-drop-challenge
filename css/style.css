@@ -1,0 +1,8 @@
+/*Hoja CSS para estilo de firstView*/
+body {
+    background-color: #000000;
+}
+
+.img-fluid {
+ width: auto;   
+}
