@@ -18,7 +18,7 @@ document.addEventListener('dragover', (e) => {
 document.addEventListener('drop', (e) => {
     if (event.target === finalBox) {
         let data = e.dataTransfer.getData("image/.jpg");
-        dragItem.parentNode.removeChild(dragItem);
+            initialBox.innerHTML = '';
           event.target.appendChild(dragItem);
     }
 }, false)
