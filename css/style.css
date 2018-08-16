@@ -1,6 +1,9 @@
 div#final-box,
 div#initial-box {
     border: 2px solid black;
-    width: 250px;
-    height: 300px;
+    width: 254px;
+    height: 200px;
+}
+.container-fluid {
+    float: left;
 }

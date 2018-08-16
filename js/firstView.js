@@ -1,4 +1,4 @@
-const initialBox = document.getElementById('initial-box');
+const initialBox = document.getElementsByClassName('col-md-3');
 const finalBox = document.getElementById('final-box');
 
 let dragItem;
